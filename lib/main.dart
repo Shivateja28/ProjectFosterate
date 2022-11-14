@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/material/colors.dart';
 import 'package:project/Profile.dart';
+import 'package:project/page2.dart';
 import 'package:project/screen1.dart';
 import 'NavBar.dart';
 
@@ -38,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
       drawer: Drawer(
         child: NavBar(),
       ) ,
-      body: ProfilePage1(),
+      body: Page2(),
     );
     ;
   }
